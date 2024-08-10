@@ -1,0 +1,23 @@
+/* RESPONSIVE FOR MOBILE DEVICE */
+@media screen and (max-width: 576px) {
+  /* header section */
+  header {
+    padding: 50px 0;
+  }
+  .banner {
+    gap: 10px;
+  }
+  .banner h3 {
+    font-size: 1rem;
+  }
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+  .banner p {
+    font-size: 0.875rem;
+  }
+  .banner-btn {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+  }
+}
