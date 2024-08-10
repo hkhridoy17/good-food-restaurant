@@ -64,4 +64,9 @@
     font-size: 1.125rem;
     margin: 10px 0;
   }
+
+  /* footer section */
+  footer .about-content {
+    padding: 50px 20px;
+  }
 }
