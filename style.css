@@ -121,3 +121,53 @@ header {
   text-align: center;
   margin-top: 50px;
 }
+
+/* about section */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.about-image img {
+  width: 100%;
+}
+.about-content {
+  text-align: center;
+}
+.about-content-text {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.about-content-text h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 16px;
+}
+.about-content-text p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+.about-content button {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+.social-links a {
+  text-decoration: none;
+  font-size: 2rem;
+}

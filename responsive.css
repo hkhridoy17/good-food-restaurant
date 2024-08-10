@@ -48,4 +48,20 @@
   .single-card p {
     font-size: 0.75rem;
   }
+
+  /* about section */
+  .about {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .about-content-text h3 {
+    font-size: 1.75rem;
+  }
+  .about-content-text p {
+    font-size: 1rem;
+  }
+  .about-content button {
+    font-size: 1.125rem;
+    margin: 10px 0;
+  }
 }
