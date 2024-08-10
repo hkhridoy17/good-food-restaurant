@@ -20,4 +20,32 @@
     font-size: 0.8rem;
     padding: 8px 15px;
   }
+
+  /* card section */
+  .card {
+    margin: 50px 10px;
+  }
+  .card-content p {
+    font-size: 1rem;
+  }
+  .card-content h2 {
+    font-size: 1.75rem;
+  }
+  .card-items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .single-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .single-card-btn {
+    font-size: 0.75rem;
+  }
+  .single-card h3 {
+    font-size: 1.5rem;
+  }
+  .single-card p {
+    font-size: 0.75rem;
+  }
 }

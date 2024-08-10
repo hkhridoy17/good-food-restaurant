@@ -58,3 +58,66 @@ header {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* card section */
+.card {
+  margin: 100px 150px;
+}
+.card-content {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  text-align: center;
+}
+.card-content p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 16px;
+}
+.card-content h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.9);
+}
+.card-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.single-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.single-card-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  color: black;
+  background-color: rgba(35, 235, 35, 0.25);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.single-card h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.9);
+}
+.single-card p {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+.card-btn {
+  text-align: center;
+  margin-top: 50px;
+}
